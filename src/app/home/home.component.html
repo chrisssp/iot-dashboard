@@ -1,0 +1,182 @@
+<!-- Navbar -->
+<header class="navbar">
+    <div class="navbar-items">
+        <img src="assets/img/navbar-logo.png" alt="IoT Logo" width="50px">
+        <h1>Internet of Things Dashboard</h1>
+    </div>
+</header>
+
+<!-- Main content -->
+<div class="main-container">
+        <div class="items-container">
+            <!-- Led Rojo -->
+            <div class="item-1">
+                <div class="item-container">
+                    <img src="assets/img/led-rojo.jpg" alt="Led Rojo" width="200px">
+                    <div class="items-footer">
+                        <h2>Led Rojo</h2>
+                        <!-- Switch Toggle -->
+                    <label class="switch" id="switchLedRojo">
+                        <input type="checkbox">
+                        <span class="slider-round"></span>
+                    </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Led Verde -->
+            <div class="item-2">
+                <div class="item-container">
+                    <img src="assets/img/led-verde.jpg" alt="Led Verde" width="200px">
+                    <div class="items-footer">
+                        <h2>Led Verde</h2>
+                        <label class="switch" id="switchLedVerde">
+                            <input type="checkbox">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Led Azul -->
+            <div class="item-3">
+                <div class="item-container">
+                    <img src="assets/img/led-azul.jpg" alt="Led Azul" width="200px">
+                    <div class="items-footer">
+                        <h2>Led Azul</h2>
+                        <label class="switch" id="switchLedAzul">
+                            <input type="checkbox">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Led Amarillo -->
+            <div class="item-4">
+                <div class="item-container">
+                    <img src="assets/img/led-amarillo.jpg" alt="Led Anarillo" width="200px">
+                    <div class="items-footer">
+                        <h2>Led Amarillo</h2>
+                        <label class="switch" id="switchLedAmarillo">
+                            <input type="checkbox">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Led RGB-->
+            <div class="item-5">
+                <div class="item-container">
+                    <img src="assets/img/led-rgb.jpg" alt="Led RGB" width="200px">
+                    <div class="items-footer">
+                        <h2>Led RGB</h2>
+                        <div class="sliders-container">
+                            <input type="range" min="0" max="255" value="0" class="slider" id="red-slider">
+                        </div>
+                        <div class="slider-container">
+                            <input type="range" min="0" max="255" value="0" class="slider" id="green-slider">
+                        </div>
+                        <div class="slider-container">
+                            <input type="range" min="0" max="255" value="0" class="slider" id="blue-slider">
+                        </div>
+                        </div>
+                        <div class="slider-container">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Sensor Ultrasónico-->
+            <div class="item-6">
+                <div class="item-container">
+                    <img src="assets/img/ultrasonico.jpg" alt="Sensor Ultrasónico" width="200px">
+                    <div class="items-footer">
+                        <h2>Sensor Ultrasónico</h2>
+                        <p>Distancia en cm</p>
+                         <!-- Slider para mostrar la distancia medida por el Sensor Ultrasónico -->
+                         <input type="range" min="0" max="200" value="0" class="slider" id="ultrasonic-slider">
+                         <p id="ultrasonic-value">0</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sensor PIR -->
+            <div class="item-7">
+                <div class="item-container">
+                    <img src="assets/img/pir.jpg" alt="Sensor PIR" width="200px">
+                    <div class="items-footer">
+                        <h2>Sensor PIR</h2>
+                        <label class="switch" id="switchPir">
+                            <input type="checkbox">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Servomotor -->
+            <div class="item-8">
+                <div class="item-container">
+                    <img src="assets/img/servo.jpg" alt="Servomotor" width="200px">
+                    <div class="items-footer">
+                        <h2>Servomotor</h2>
+                        <p>Grados del giro</p>
+                        <input type="range" min="0" max="180" value="0" class="slider" id="servomotor-slider">
+                        <p id="servomotor-value">0</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sensor de temperatura y humedad DHT11 -->
+            <div class="item-9">
+                <div class="item-container">
+                    <img src="assets/img/dht11.jpg" alt="DHT11" width="200px">
+                    <div class="items-footer">
+                        <h2>Sensor DHT11</h2>
+                        <p>Temperatura/Humedad</p>
+                        <input type="range" min="0" max="50" value="0" class="slider" id="temperature-slider">
+                        <p id="temperature-value">0</p>
+                        <input type="range" min="0" max="100" value="0" class="slider" id="humidity-slider">
+                        <p id="humidity-value">0</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fotoresistencia -->
+            <div class="item-10">
+                <div class="item-container">
+                    <img src="assets/img/fotoresistencia.jpg" alt="Fotoresistencia" width="200px">
+                    <div class="items-footer">
+                        <h2>Fotoresistencia</h2>
+                        <label class="switch" id="switchFotoresistencia">
+                            <input type="checkbox">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Buzzer -->
+            <div class="item-11">
+                <div class="item-container">
+                    <img src="assets/img/buzzer.jpg" alt="Buzzer" width="200px">
+                    <div class="items-footer">
+                        <h2>Buzzer</h2>
+                       <label class="switch" id="switchBuzzer">
+                            <input type="checkbox">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Potenciómetro -->
+            <div class="item-12">
+                <div class="item-container">
+                    <img src="assets/img/potenciometro.jpg" alt="Potenciómetro" width="200px">
+                    <div class="items-footer">
+                        <h2>Potenciómetro</h2>
+                        <p>Giro</p>
+                        <input type="range" min="0" max="1023" value="0" class="slider" id="potentiometer-slider">
+                        <p id="potentiometer-value">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div> <!-- Cierre contenedor principal -->
+
+<!-- Footer -->
+<footer class="footer">
+    <p>Elaborado por José Eduardo Chávez Moreno y Jorge Christian Serrano Puertos | TIDSM-5B</p>
+</footer>
